@@ -1,0 +1,74 @@
+
+.custom-icon {
+    filter: invert(0%) sepia(100%) saturate(1000%) hue-rotate(0deg) brightness(0%) contrast(100%);
+}
+body{
+    padding-top: 90px;
+}
+.carousel-inner .carousel-item img {
+  max-height: 500px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  color: #000;
+}
+
+
+#fitur button {
+  font-family: 'Open Sans';
+  font-size: 45px;
+}
+
+
+.card-fitur .overlay{
+    background-color: rgba(0, 0, 0, .7);
+    opacity: 0;
+    transition: ease-in-out .3s;
+}
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0,6);
+    opacity: 1; 
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    border: none;
+    transform: translate(-50%, -50%);
+    width: auto;
+    text-align: center;
+  }
+
+/* Banner Diskon */
+.about .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about .row .about-img {
+    flex: 0 0 auto;
+    max-width: 70%;
+  }
+  
+  .about .row .about-img img {
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+
+  .about-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 33.33%;
+    padding: 1rem;
+  }
+  
+  .about-img-container img {
+    max-width: 65%;
+    height: auto;
+  }
